@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>My CV by Vladilen HTLM course</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<a href="index.html">Главная</a>
+				<a href="#">Контакты</a>
+				<a href="feedback.html">Обратная связь</a>
+			</nav>
+		</header>
+		
+		<div class="info"> 
+			<div>
+				<img class="avatar" src="IMG_20180531_125204.jpg" alt="My Photo">
+			</div>
+			<div class="info-text">
+				<h1>Андрей Азарёнок</h1>
+			<p> Front-end developer</p>
+		
+			<h4>Мои контакты</h4>
+			<a href="https://www.instagram.com/andrei_azaronak_mogilev/" target="_border">Instagram</a>
+			|
+			<a href="feedback.html" target="_blank">aazaronak@gmail.com</a>
+			|
+			phone: +375 (33) 6884412
+			</div>
+		</div>
+
+		<div class="card bg-yellow">
+			<h2>Увлечения:</h2>
+			<ol type="1" class="list">
+				<li>Программирование.</li>
+				<li>Отдых на природе.</li>
+				<li>Автомобили.</li>
+			</ol>
+		</div>
+
+		<div class="card bg-green">
+			<h2>Опыт работы</h2>
+			<table class="table" >
+				<tbody>
+					<tr>
+						<td>Marriott International </td>
+						<td>Chef Engineer</td>
+						<td>99-09</td>
+					</tr>
+					<tr>
+						<td>RegionIstStroi</td>
+						<td> Engineer</td>
+						<td>09-20</td>
+					</tr>
+					<tr>
+						<td>Self-employed</td>
+						<td>Transportation</td>
+						<td>20-21</td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</div>
+
+		<div class="card bg-red">
+			<h2>Интересные ссылки</h2>
+			<ul class="link-list">
+				<li><a href="#">Вот одна из таких...</a></li>
+				<li><a href="@">Вот ещё одна</a></li>
+			</ul>			
+		</div>
+
+		<div class="contact">
+			<h2>Связаться со мной</h2>
+			<form action="/">
+				<div class="row">
+					<div class="form-group">
+						<label for="nameId">Ваше имя:</label>
+						<input tabindex="1" type="text" name="name" id="nameId" placeholder="Input your name">
+					</div>
+					
+					<div class="form-group">
+						<label for="mailId">e:mail:</label>
+						<input tabindex="2" type="text" name="mail" id="mailId" placeholder="Input your e:mail">
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="textId">Ваше сообщение:</label>
+					<textarea tabindex="3" name="message" id="textId" cols="30" rows="5"></textarea>
+				</div>
+
+				<input class="btn" tabindex="4" type="submit" name="sendButton" id="" value="Связаться">
+			
+			</form>
+		</div>
+
+		<hr>
+		<footer>
+			<p>AndreiAzaronak</p>
+		</footer>
+	</div>
+</body>
+</html>
